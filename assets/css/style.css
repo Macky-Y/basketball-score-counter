@@ -13,14 +13,12 @@ body {
     background-color: #554994;
     text-align: center;
     font-family: sans-serif;
-
 }
 
 h1 {
     color: #fff;
     letter-spacing: 2.5px;
     margin-top: 20px;
-    line-height: 10px;
 }
 
 #container {
@@ -36,7 +34,6 @@ h1 {
     flex-direction: column;
     align-items: center;
     margin: 140px auto;
-
 }
 
 #score-guest, #score-home {
@@ -50,7 +47,6 @@ h1 {
     width: 170px;
     height: 120px;
     background-color: #000;
-
 }
 
 .score-btns {
