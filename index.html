@@ -8,11 +8,38 @@
         <link rel="stylesheet" href="./assets/css/style.css">
     </head>
     <body>
+        <h1>BASKETBALL SCORE COUNTER</h1>
         <div id="container">
-            <section>
-                <h3></h3>
-            </section>
+            <div class="team">
+                <h2>HOME</h2>
+                <h3 id="score-home">0</h3>
+                <div class="score-btns">
+                    <button id="home-plus1" onclick="homePlusOne()">+1</button>
+                    <button id="home-plus2" onclick="homePlusTwo()">+2</button>
+                    <button id="home-plus3" onclick="homePlusThree()">+3</button>
+                </div>
+            </div>
+            <div class="team">
+                <h2>GUEST</h2>
+                <h3 id="score-guest">0</h3>
+                <div class="score-btns">
+                    <button id="guest-plus1" onclick="guestPlusOne()">+1</button>
+                    <button id="guest-plus2" onclick="guestPlusTwo()">+2</button>
+                    <button id="guest-plus3" onclick="guestPlusThree()">+3</button>
+                </div>
+            </div>
         </div>
+        <div id="game">
+            <button id="new-game" onclick="newGame()">New Game</button>
+            <button id="end-game" onclick="endGame()">End Game</button>
+            <h4 id="winner"></h4>
+        </div>
+
+
+
+
+        
+
         <!-- Script -->
         <script src="./assets/js/index.js"></script>
     </body>

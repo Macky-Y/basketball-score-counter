@@ -1,13 +1,103 @@
+@font-face {
+    src: url(../../fonts/CursedTimerUlil.ttf);
+    font-family: cursedTimer;
+}
+
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
-html {
-    font-size: 62.5%;
+body {
+    background-color: #554994;
+    text-align: center;
+    font-family: sans-serif;
+
+}
+
+h1 {
+    color: #fff;
+    letter-spacing: 2.5px;
+    margin-top: 20px;
+    line-height: 10px;
 }
 
 #container {
-    
+    font-family: sans-serif;
+    display: flex;
+}
+
+.team {
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 140px auto;
+
+}
+
+#score-guest, #score-home {
+    font-family: cursedTimer;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 90px;
+    line-height: 127px;
+    color: #F94F6D;
+    text-align: center;
+    width: 170px;
+    height: 120px;
+    background-color: #000;
+
+}
+
+.score-btns {
+    width: 170px;
+    height: 45px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.score-btns button {
+    width: 50px;
+    height: 45px;
+    border-radius: 10px;
+    background: none;
+    outline: none;
+    border: 1px solid #fff;
+    font-family: cursedTimer;
+    font-size: 20px;
+    color: #fff;
+}
+
+#game {
+    display: flex;
+    text-align: center;
+    margin: auto;
+    align-items: center;
+    flex-direction: column;
+    margin-top: -90px;
+}
+
+#new-game, #end-game {
+    width: 250px;
+    height: 50px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    background: none;
+    color: #fff;
+    font-size: 20px;
+    border: 1px solid #fff;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+#winner {
+    font-size: 40px;
+    color: #fff;
 }
